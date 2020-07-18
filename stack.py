@@ -94,3 +94,4 @@ while mainloop:
         scrape_data=json.dumps(json_data,indent=5)
         with open('index.json', 'a+') as f:
             f.write(scrape_data)
+        print('Done Scrapping')
